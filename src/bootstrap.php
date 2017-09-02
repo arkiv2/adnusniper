@@ -1,6 +1,6 @@
 <?php
 
-namespace Notyourtechguy\Snipe;
+namespace Notyourtechguy\Sniper;
 
 use Dotenv\Dotenv;
 use Whoops\Handler\PrettyPageHandler;

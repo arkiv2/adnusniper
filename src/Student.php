@@ -6,7 +6,7 @@
  * Time: 9:15 PM
  */
 
-namespace Notyourtechguy\Snipe;
+namespace Notyourtechguy\Sniper;
 
 
 class Student

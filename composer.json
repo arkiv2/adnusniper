@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Notyourtechguy\\Snipe\\": "src/"
+            "Notyourtechguy\\Sniper\\": "src/"
         }
     },
     "require-dev": {

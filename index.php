@@ -2,8 +2,7 @@
 
 require __DIR__ . '/src/bootstrap.php';
 
-use Notyourtechguy\Snipe;
-use Notyourtechguy\Snipe\Student;
+use Notyourtechguy\Sniper\Student;
 
 
 $student = new Student(getenv('USERNAME'), getenv('PASSWORD'));

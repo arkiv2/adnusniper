@@ -1,6 +1,6 @@
 <?php
 
-namespace Notyourtechguy\Snipe;
+namespace Notyourtechguy\Sniper;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\SessionCookieJar;
