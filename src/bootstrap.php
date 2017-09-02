@@ -7,6 +7,7 @@ use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 
 require __DIR__ . '/../vendor/autoload.php';
+require 'helpers/helpers.php';
 
 error_reporting(E_ALL);
 
@@ -27,3 +28,4 @@ $whoops->register();
 
 $dotenv = new Dotenv(__DIR__ . '/../');
 $dotenv->load();
+
