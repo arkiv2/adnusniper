@@ -21,6 +21,10 @@ class Snipe {
 			'base_uri' => 'http://my.adnu.edu.ph/index.php/',
 			'cookies' => $this->cookieJar,
 		]);
+
+		$this->login();
+
+		return $this->client;
 	}
 
 	public function login()
@@ -59,13 +63,5 @@ class Snipe {
 
         return $decoded;
     }
-
-    public function getClassmates()
-    {
-        $this->browse('mySubjectsCMates2/classList/2017-1-00814');
-        $response = $this->getData();
-        return $response['logged_in']['CLASSLIST'];
-    }
-
 
 }

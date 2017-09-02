@@ -3,6 +3,7 @@
 require __DIR__ . '/src/bootstrap.php';
 
 use Notyourtechguy\Snipe;
+use Notyourtechguy\Snipe\Student;
 
 
 if (!function_exists('dd')) {
@@ -15,9 +16,8 @@ if (!function_exists('dd')) {
     }
 }
 
-$sniper = new Snipe\Snipe('201011229', '985464');
-$sniper->login();
-$classmates = $sniper->getClassmates();
+$student = new Student(getenv('USERNAME'), getenv('PASSWORD'));
+$classmates = $student->getClassmates('2017-1-00814');
 
 foreach($classmates as $classmate)
 {
