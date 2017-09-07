@@ -49,11 +49,11 @@ class Snipe {
         return $response;
     }
 
-	public function getData()
+	public function getData($index)
     {
         $cookie = $this->getCookie();
 
-        return $this->decode($cookie[1]['Value']);
+        return $this->decode($cookie[$index]['Value']);
     }
 
     public function decode($data)

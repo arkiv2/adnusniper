@@ -1,6 +1,6 @@
 # MyADNU Sniper
 
-PHP Microservice for querying [MyADNU](https://my.adnu.edu.ph) servicesto access grades, subjects, schedules and payments.
+PHP Microservice for querying [MyADNU](https://my.adnu.edu.ph) services to access grades, subjects, schedules and payments.
 
 
 

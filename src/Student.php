@@ -21,7 +21,13 @@ class Student
     public function getClassmates($subject_code)
     {
         $this->sniper->browse('mySubjectsCMates2/classList/' . $subject_code);
-        $response = $this->sniper->getData();
+        $response = $this->sniper->getData(1);
         return $response['logged_in']['CLASSLIST'];
+    }
+
+    public function getUserInfo()
+    {
+        $user = $this->sniper->getData(0)['logged_in'];
+        return $user;
     }
 }
